@@ -116,10 +116,6 @@
 [submodule "frame_benchmark/pytorch/dynamic/PaddleSeg/models/MaskFormer"]
 	path = frame_benchmark/pytorch/dynamic/PaddleSeg/models/MaskFormer
 	url = https://github.com/facebookresearch/MaskFormer.git
-[submodule "frame_benchmark/pytorch/dynamic/PaddleDetection/models/detrex"]
-	path = frame_benchmark/pytorch/dynamic/PaddleDetection/models/detrex
-	url = https://github.com/PaddleBenchmark/detrex.git
-	branch = main
 [submodule "frame_benchmark/pytorch/dynamic/PaddleSeg/models/ViT-Adapter"]
 	path = frame_benchmark/pytorch/dynamic/PaddleSeg/models/ViT-Adapter
 	url = https://github.com/czczup/ViT-Adapter.git
@@ -140,4 +136,8 @@
 [submodule "frame_benchmark/pytorch/dynamic/PaddleDetection/models/yolov7"]
 	path = frame_benchmark/pytorch/dynamic/PaddleDetection/models/yolov7
 	url = https://github.com/PaddleBenchmark/yolov7.git
+	branch = main
+[submodule "frame_benchmark/pytorch/dynamic/PaddleDetection/models/detrex"]
+	path = frame_benchmark/pytorch/dynamic/PaddleDetection/models/detrex
+	url = https://github.com/PaddleBenchmark/detrex.git
 	branch = main

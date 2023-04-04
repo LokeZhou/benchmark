@@ -8,9 +8,7 @@ echo `pip --version`
 
 pip install https://paddle-wheel.bj.bcebos.com/benchmark/torch-1.12.0%2Bcu113-cp37-cp37m-linux_x86_64.whl
 pip install https://paddle-wheel.bj.bcebos.com/benchmark/torchvision-0.13.0%2Bcu113-cp37-cp37m-linux_x86_64.whl
-git submodule init
-git submodule update
-python -m pip install -e detectron2
+pip install https://bj.bcebos.com/v1/paddle-wheel/detectron2-0.6-cp37-cp37m-linux_x86_64.whl
 pip install -e .
 
 

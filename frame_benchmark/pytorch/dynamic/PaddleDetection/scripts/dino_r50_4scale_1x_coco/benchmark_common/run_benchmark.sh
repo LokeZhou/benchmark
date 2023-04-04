@@ -80,12 +80,12 @@ function _train(){
                    "
 
     case ${run_process_type} in
-    SingleP) train_cmd="python tools/train_net.py --config-file ${train_config} --num-gpus 1 ${train_options} " ;;
+    SingleP) train_cmd="python train_net.py --config-file ${train_config} --num-gpus 1 ${train_options} " ;;
     MultiP) 
     if [ ${device_num:3} = '32' ];then
-        train_cmd="python tools/train_net.py --config-file ${train_config} --num-gpus 8 ${train_options} " 
+        train_cmd="python train_net.py --config-file ${train_config} --num-gpus 8 ${train_options} " 
     elif [ ${device_num:3} = '8' ];then
-        train_cmd="python tools/train_net.py --config-file ${train_config} --num-gpus 8 ${train_options} " 
+        train_cmd="python train_net.py --config-file ${train_config} --num-gpus 8 ${train_options} " 
     fi  ;;
     *) echo "choose run_mode(SingleP or MultiP)"; exit 1;
     esac
